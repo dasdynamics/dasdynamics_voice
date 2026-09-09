@@ -30,6 +30,7 @@ setup(
     entry_points={
         'console_scripts': [
             'voice_recognition_node = dasdynamics_voice.voice_recognition_node:main',
+            'user_command_detection_node = dasdynamics_voice.user_command_detection_node:main',
         ],
     },
 )
